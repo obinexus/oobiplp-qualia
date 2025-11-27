@@ -1,0 +1,24 @@
+graph TB
+    A[Backlog<br/>Ideas & Requirements] --> B{Gate Open<br/>Question Assurance}
+    B -->|Consent Given| C[Doing<br/>Active Work]
+    B -->|No Consent| A
+    C --> D{Gate Close<br/>Validation}
+    D -->|Quality Pass| E[Review<br/>Learn & Reflect]
+    D -->|Quality Fail| C
+    E --> A
+    
+    F[QA Matrix] --> B
+    F --> D
+    
+    subgraph "QA Matrix Components"
+        F1[True Positive]
+        F2[False Positive]
+        F3[True Negative]
+        F4[False Negative]
+    end
+    
+    G[Computational Cognition<br/>Systematic Thinking] --> A
+    G --> B
+    G --> C
+    G --> D
+    G --> E
