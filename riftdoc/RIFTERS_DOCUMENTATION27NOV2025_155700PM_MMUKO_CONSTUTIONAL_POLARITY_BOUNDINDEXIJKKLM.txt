@@ -1,0 +1,715 @@
+./riftdoc/
+├── book.json
+├── docs
+│   ├── AEGIS Project Updated Implementation Plan - July 2025.pdf
+│   ├── bachelor
+│   │   ├── bachelor_back.jpg
+│   │   ├── bachelor_front.jpg
+│   │   ├── gateway_theory_2.pdf
+│   │   └── README.md
+│   ├── build-orchestration
+│   │   ├── nlink
+│   │   │   └── README.md
+│   │   ├── polybuild
+│   │   │   ├── building_belief_into_code.pdf
+│   │   │   ├── building_belief_into_code_1.pdf
+│   │   │   ├── building_belief_into_code_2.pdf
+│   │   │   ├── building_belief_into_code_3.pdf
+│   │   │   ├── building_belief_into_code_4.pdf
+│   │   │   └── README.md
+│   │   └── README.md
+│   ├── canonical
+│   │   ├── Automaton State Minimization and AST Optimization.pdf
+│   │   ├── Cryptographic_Standard_V1_0.pdf
+│   │   ├── Dimensional_Game_Theory.md
+│   │   ├── Dimensional_Game_Theory.pdf
+│   │   ├── Enhanced Chapter 6_ Git-RAF Integration.pdf
+│   │   ├── enhanced_chapter_6.md
+│   │   ├── Formal Proof of Zzero-Knowledge Protocol.pdf
+│   │   ├── Formal_Analysis_of_Game_Theory_for_Algorithm.md
+│   │   ├── Formal_Mathemitical_Reasoning_System.pdf
+│   │   ├── hotwiring_architecture.md
+│   │   ├── hotwiring_overview.md
+│   │   ├── implementation_strategy.md
+│   │   ├── Isomorphic_Reduction__Not_a_Bug__But_a_Feature.pdf
+│   │   ├── phantom_decoder.py
+│   │   ├── README.md
+│   │   ├── repo_structure.md
+│   │   ├── Rift Architecture Gossip (11).pdf
+│   │   ├── RIFT Repository README.md.pdf
+│   │   ├── RIFT Stage 0 Tokenization System_ Complete Implementation Plan.pdf
+│   │   ├── RIFT-0 Tokenizer Header Files_ Clean Structure for AEGIS Framework Compatibility.pdf
+│   │   ├── Telemetry Debugging via GUID and Timestamp Integration.pdf
+│   │   ├── Unicode_Only_Structural_Charset_Normalizer.md
+│   │   ├── Variadic Strategy in Multi-Dimensional Context.pdf
+│   │   ├── Varidaic_Strategy.md
+│   │   └── ZERO_KNOWLEDGE_PROOF.md
+│   ├── compliance
+│   │   ├── governance
+│   │   │   ├── Gossip Language Governance Layer.pdf
+│   │   │   ├── Gossip Language Governance Layer_1.pdf
+│   │   │   ├── memory as governance contract.pdf
+│   │   │   ├── README.md
+│   │   │   ├── RIFT Toolchain Governance Compliance Framework.pdf
+│   │   │   └── RIFT-Bridge Governance Relay Interface.pdf
+│   │   ├── legal-policy
+│   │   │   └── README.md
+│   │   ├── opensense
+│   │   │   └── README.md
+│   │   └── README.md
+│   ├── Doxyfile.in
+│   ├── examples
+│   │   ├── cultural-adaptation
+│   │   │   └── README.md
+│   │   ├── integration
+│   │   │   ├── Enhanced Chapter 6_ Git-RAF Integration.pdf
+│   │   │   ├── Enhanced Chapter 6_ Git-RAF Integration_1.pdf
+│   │   │   ├── OBINexus RIFT-N Sinphasé Integration Plan.pdf
+│   │   │   ├── README.md
+│   │   │   ├── Telemetry Debugging via GUID and Timestamp Integration.pdf
+│   │   │   └── Telemetry Debugging via GUID and Timestamp Integration_1.pdf
+│   │   ├── proof-of-concept
+│   │   │   ├── $i2lqwin.pdf
+│   │   │   ├── $ixd9ode.pdf
+│   │   │   ├── $r2lqwin.pdf
+│   │   │   ├── $rxd9ode.pdf
+│   │   │   ├── $rxd9ode_1.pdf
+│   │   │   ├── $rxd9ode_2.pdf
+│   │   │   ├── $rxd9ode_3.pdf
+│   │   │   ├── $rxd9ode_4.pdf
+│   │   │   ├── Aegis.pdf
+│   │   │   ├── contextual swiichting.pdf
+│   │   │   ├── contextual swiichting_1.pdf
+│   │   │   ├── contextual swiichting_2.pdf
+│   │   │   ├── contextual swiichting_3.pdf
+│   │   │   ├── contextual swiichting_4.pdf
+│   │   │   ├── Cryptographic_Standard_V1_0.pdf
+│   │   │   ├── Cryptographic_Standard_V1_0_1.pdf
+│   │   │   ├── dimensional game_theory.pdf
+│   │   │   ├── Dimensional_Game_Theory.pdf
+│   │   │   ├── gateway_theory_2.pdf
+│   │   │   ├── governing meaning_ the rift architecture of certainty - copy.pdf
+│   │   │   ├── governing meaning_ the rift architecture of certainty - copy_1.pdf
+│   │   │   ├── governing meaning_ the rift architecture of certainty - copy_2.pdf
+│   │   │   ├── governing meaning_ the rift architecture of certainty - copy_3.pdf
+│   │   │   ├── governing meaning_ the rift architecture of certainty - copy_4.pdf
+│   │   │   ├── Isomorphic_Reduction__Not_a_Bug__But_a_Feature.pdf
+│   │   │   ├── Mathematical_Framework_for_Zero_Overhead_Data_Marshalling.pdf
+│   │   │   ├── memory_self_role_mask.pdf
+│   │   │   ├── memory_self_role_mask_1.pdf
+│   │   │   ├── memory_self_role_mask_2.pdf
+│   │   │   ├── memory_self_role_mask_3.pdf
+│   │   │   ├── memory_self_role_mask_4.pdf
+│   │   │   ├── obinexus_computing_librift (3).pdf
+│   │   │   ├── obinexus_computing_librift (4).pdf
+│   │   │   ├── README.md
+│   │   │   ├── readme.pdf
+│   │   │   ├── readme_1.pdf
+│   │   │   ├── readme_2.pdf
+│   │   │   ├── readme_3.pdf
+│   │   │   ├── readme_4.pdf
+│   │   │   ├── readme2.pdf
+│   │   │   ├── readme2_1.pdf
+│   │   │   ├── readme2_2.pdf
+│   │   │   ├── readme2_3.pdf
+│   │   │   ├── readme2_4.pdf
+│   │   │   ├── Rift Architecture Gossip (11).pdf
+│   │   │   ├── RIFT Import Enforcement Guide.pdf
+│   │   │   ├── RIFT Repository README.md.pdf
+│   │   │   ├── RIFT-7 Secure Hardware Deployment Layer.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper (8) - copy.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper (8) - copy_1.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper (8) - copy_2.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper (8) - copy_3.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper (8) - copy_4.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper (8).pdf
+│   │   │   ├── rifter_ecosystem_whitepaper (8)_1.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper (8)_2.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper (8)_3.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper (8)_4.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper_1.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper_2.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper_3.pdf
+│   │   │   ├── rifter_ecosystem_whitepaper_4.pdf
+│   │   │   ├── riftmemory_alignment.pdf
+│   │   │   ├── sinphase_documentation.pdf
+│   │   │   ├── State Machine Minization - An Application Based Case Study  on Tennis.pdf
+│   │   │   ├── technical documentation - memory goveranace in the rift ecosystem.pdf
+│   │   │   ├── technical documentation - memory goveranace in the rift ecosystem_1.pdf
+│   │   │   ├── technical documentation - memory goveranace in the rift ecosystem_2.pdf
+│   │   │   ├── technical documentation - memory goveranace in the rift ecosystem_3.pdf
+│   │   │   ├── technical documentation - memory goveranace in the rift ecosystem_4.pdf
+│   │   │   ├── the_rifters_way_manifesto.pdf
+│   │   │   ├── the_rifters_way_manifesto_1.pdf
+│   │   │   ├── the_rifters_way_manifesto_2.pdf
+│   │   │   ├── the_rifters_way_manifesto_3.pdf
+│   │   │   ├── the_rifters_way_manifesto_4.pdf
+│   │   │   └── Variadic Strategy in Multi-Dimensional Context.pdf
+│   │   └── README.md
+│   ├── img
+│   │   ├── crypto_std.jpg
+│   │   ├── favicon.png
+│   │   ├── OBINexusNnamdi.png
+│   │   ├── README.md
+│   │   ├── rift_bytecode.webp
+│   │   ├── rift_flow.png
+│   │   ├── rift_raf.png
+│   │   └── rift_stage-N.png
+│   ├── incremental_edit_loop.md
+│   ├── MILESTONE_02_7_2025.md
+│   ├── pr-proof
+│   │   ├── Aegis.pdf
+│   │   ├── Automaton State Minimization and AST Optimization.pdf
+│   │   ├── Cryptographic_Standard_V1_0.pdf
+│   │   ├── Extended Automaton-AST Minimization and Validation.pdf
+│   │   ├── Formal Proof of Zzero-Knowledge Protocol.pdf
+│   │   ├── Formal_Mathemitical_Reasoning_System (1).pdf
+│   │   ├── Mathematical_Framework_for_Zero_Overhead_Data_Marshalling.pdf
+│   │   ├── README.md
+│   │   ├── README.pdf
+│   │   ├── sinphase_documentation.pdf
+│   │   ├── State Machine Minization - An Application Based Case Study  on Tennis.pdf
+│   │   └── Thread Safety Implementation in Gosilang - A Formal Analysis (1).pdf
+│   ├── README.md
+│   ├── rift-0
+│   │   └── README.md
+│   ├── riftlang
+│   │   ├── development
+│   │   │   ├── poc
+│   │   │   │   ├── poc
+│   │   │   │   │   ├── Makefile
+│   │   │   │   │   └── shared
+│   │   │   │   │       ├── rift_common
+│   │   │   │   │       │   ├── Makefile
+│   │   │   │   │       │   ├── rift_common.c
+│   │   │   │   │       │   ├── rift_common.h
+│   │   │   │   │       │   └── rift_telemetry.c
+│   │   │   │   │       ├── rift_http
+│   │   │   │   │       │   ├── rift_http_base.c
+│   │   │   │   │       │   ├── rift_http_base.h
+│   │   │   │   │       │   ├── rift_parallel_req.c
+│   │   │   │   │       │   └── rift_parallel_req.h
+│   │   │   │   │       └── rift_memory
+│   │   │   │   │           ├── rift_memory_tokens.c
+│   │   │   │   │           ├── rift_memory_tokens.h
+│   │   │   │   │           ├── rift_policy_mutex.c
+│   │   │   │   │           └── rift_policy_mutex.h
+│   │   │   │   ├── rift_concurrency
+│   │   │   │   │   ├── common
+│   │   │   │   │   │   ├── rift_common.h
+│   │   │   │   │   │   └── rift_telemetry.c
+│   │   │   │   │   └── Makefile.master
+│   │   │   │   └── rift_concurrency_backup_20250524_152655
+│   │   │   │       ├── common
+│   │   │   │       │   ├── rift_common.h
+│   │   │   │       │   └── rift_telemetry.c
+│   │   │   │       └── Makefile.master
+│   │   │   └── RIFTer_Project
+│   │   │       ├── governance
+│   │   │       ├── README.md
+│   │   │       ├── scripts
+│   │   │       │   └── rifter_pomodoro.sh
+│   │   │       ├── track1_foundation
+│   │   │       │   ├── research
+│   │   │       │   │   └── rifter_principles.md
+│   │   │       │   └── TODO.md
+│   │   │       └── track2_aspirational
+│   │   │           ├── include
+│   │   │           │   └── rift
+│   │   │           │       └── token.h
+│   │   │           └── TODO.md
+│   │   ├── docs
+│   │   │   ├── developer
+│   │   │   │   ├── the rifters way - language intergirty for human-centric safety-critcial system.md
+│   │   │   │   ├── the rifters way - language intergirty for human-centric safety-critcial system.pdf
+│   │   │   │   └── the_rifters_way_manifesto.pdf
+│   │   │   ├── marked-down
+│   │   │   │   ├── $i8io2l9.md
+│   │   │   │   ├── $i8rf64o.md
+│   │   │   │   ├── $icu90ow.md
+│   │   │   │   ├── $ing7ua6.md
+│   │   │   │   ├── $r8io2l9.md
+│   │   │   │   ├── $r8rf64o.md
+│   │   │   │   ├── $rcu90ow.md
+│   │   │   │   ├── $rng7ua6.md
+│   │   │   │   ├── building_belief_into_code.md
+│   │   │   │   ├── contextual swiichting.md
+│   │   │   │   ├── directory_for_riftlang_ugly_as_.md
+│   │   │   │   ├── memory_self_role_mask.md
+│   │   │   │   ├── Quatum_Superposition.md
+│   │   │   │   ├── readme.md
+│   │   │   │   ├── readme2.md
+│   │   │   │   ├── rift_goverance_file.md
+│   │   │   │   ├── rift-documentation-build.md
+│   │   │   │   ├── riftlang_with_quantum_governnce.md
+│   │   │   │   ├── rifttoken_model.md
+│   │   │   │   └── rift-token-spec.md
+│   │   │   ├── specification
+│   │   │   │   ├── $i2lqwin.pdf
+│   │   │   │   ├── $ixd9ode.pdf
+│   │   │   │   ├── $r2lqwin.pdf
+│   │   │   │   ├── $rxd9ode.pdf
+│   │   │   │   ├── building_belief_into_code.pdf
+│   │   │   │   ├── contextual swiichting.pdf
+│   │   │   │   ├── governing meaning_ the rift architecture of certainty - copy.pdf
+│   │   │   │   ├── memory_self_role_mask.pdf
+│   │   │   │   ├── readme.pdf
+│   │   │   │   ├── readme2.pdf
+│   │   │   │   ├── rift token architecture_ memory-type associations.pdf
+│   │   │   │   ├── rifter_ecosystem_whitepaper (8) - copy.pdf
+│   │   │   │   ├── rifter_ecosystem_whitepaper (8).pdf
+│   │   │   │   ├── rifter_ecosystem_whitepaper.pdf
+│   │   │   │   ├── riftlang self-governing driver & binding specification.md
+│   │   │   │   ├── riftlang self-governing driver & binding specification.pdf
+│   │   │   │   ├── riftlang_implementation_specification.pdf
+│   │   │   │   ├── riftlang_lexer_specification.md
+│   │   │   │   ├── specification_classic_and
+│   │   │   │   └── technical documentation - memory goveranace in the rift ecosystem.pdf
+│   │   │   └── thread
+│   │   │       ├── FORMAL AUTOMATON MODEL FOR REGEX IN PROGRAMMING LANGUAGE DESIGN.pdf
+│   │   │       └── Thread Safety Implementation in Gosilang - A Formal Analysis (1).pdf
+│   │   ├── governance
+│   │   │   ├── memory_contracts
+│   │   │   │   ├── memory as governance contract.md
+│   │   │   │   └── memory as governance contract.pdf
+│   │   │   ├── rift-governance-model.md
+│   │   │   ├── riftlang token specification_ classical and quantum governance.pdf
+│   │   │   └── security_manifest.json
+│   │   ├── lib
+│   │   │   └── librift
+│   │   │       ├── obinexus_computing_librift (3).pdf
+│   │   │       └── obinexus_computing_librift (4).pdf
+│   │   ├── Makefile
+│   │   ├── misc
+│   │   │   ├── $i8v60tk
+│   │   │   ├── $i9uf4me
+│   │   │   ├── $idpz77r.git
+│   │   │   ├── $ieda1ip
+│   │   │   ├── $im5krkr
+│   │   │   ├── $iw0ugyf
+│   │   │   ├── $iy0jlph.git
+│   │   │   ├── $izl5zog
+│   │   │   ├── $izqkqlc.ps1
+│   │   │   ├── $rzqkqlc.ps1
+│   │   │   ├── 62baad5cbe560a3b976ccab6258d855173aa6f
+│   │   │   ├── 673b4d464b7c93221911763b26acddcdc6fd49
+│   │   │   ├── 825dc642cb6eb9a060e54bf8d69288fbee4904
+│   │   │   ├── applypatch-msg.sample
+│   │   │   ├── bf4f791cde7353bc22f336164e1e218b6467b2
+│   │   │   ├── builsystem.rifters
+│   │   │   ├── commit_editmsg
+│   │   │   ├── commit-msg.sample
+│   │   │   ├── config
+│   │   │   ├── crypto_state_machine_gov.py
+│   │   │   ├── description
+│   │   │   ├── exclude
+│   │   │   ├── fsmonitor-watchman.sample
+│   │   │   ├── governce_regualtion.py
+│   │   │   ├── head
+│   │   │   ├── index
+│   │   │   ├── main
+│   │   │   ├── post-update.sample
+│   │   │   ├── pre-applypatch.sample
+│   │   │   ├── pre-commit.sample
+│   │   │   ├── pre-merge-commit.sample
+│   │   │   ├── prepare-commit-msg.sample
+│   │   │   ├── pre-push.sample
+│   │   │   ├── pre-rebase.sample
+│   │   │   ├── pre-receive.sample
+│   │   │   ├── push-to-checkout.sample
+│   │   │   ├── refactor-riftlang.ps1
+│   │   │   ├── rift-documentation-build.ps1
+│   │   │   ├── riftsearch.ps1
+│   │   │   ├── sendemail-validate.sample
+│   │   │   ├── setup.ps1
+│   │   │   ├── update.sample
+│   │   │   └── update-riftlangenvironment-.ps1
+│   │   ├── README.md
+│   │   ├── research
+│   │   │   ├── formal_methods
+│   │   │   │   ├── dimensional game_theory.pdf
+│   │   │   │   ├── formal languages and grammar types.pdf
+│   │   │   │   └── formal-languages-grammar-types.md
+│   │   │   ├── research
+│   │   │   │   └── rifter_principles.md
+│   │   │   └── TODO.md
+│   │   └── src
+│   │       └── memory
+│   │           ├── riftmemory_alignment.md
+│   │           └── riftmemory_alignment.pdf
+│   ├── rift-N
+│   │   ├── marked-down
+│   │   │   ├── $i8io2l9.md
+│   │   │   ├── $i8rf64o.md
+│   │   │   ├── $icu90ow.md
+│   │   │   ├── $ing7ua6.md
+│   │   │   ├── $r8io2l9.md
+│   │   │   ├── $r8rf64o.md
+│   │   │   ├── $rcu90ow.md
+│   │   │   ├── $rng7ua6.md
+│   │   │   ├── building_belief_into_code.md
+│   │   │   ├── contextual swiichting.md
+│   │   │   ├── directory_for_riftlang_ugly_as_.md
+│   │   │   ├── memory_self_role_mask.md
+│   │   │   ├── Quantum_Superposition.md
+│   │   │   ├── readme.md
+│   │   │   ├── readme2.md
+│   │   │   ├── rift_goverance_file.md
+│   │   │   ├── rift-documentation-build.md
+│   │   │   ├── riftlang_with_quantum_governnce.md
+│   │   │   ├── rifttoken_model.md
+│   │   │   └── rift-token-spec.md
+│   │   ├── README.md
+│   │   ├── rift-7
+│   │   │   ├── Gossip Language Governance Layer.pdf
+│   │   │   ├── gossip-language-governance.md
+│   │   │   ├── import-enforcement-guide.md
+│   │   │   ├── README.md
+│   │   │   ├── RIFT Import Enforcement Guide.pdf
+│   │   │   ├── RIFT-7 Secure Hardware Deployment Layer.pdf
+│   │   │   ├── rift-7-hardware-deployment.md
+│   │   │   ├── RIFT-Bridge Governance Relay Interface.pdf
+│   │   │   └── rift-bridge-governance-relay.md
+│   │   └── specification
+│   │       ├── $i2lqwin.pdf
+│   │       ├── $ixd9ode.pdf
+│   │       ├── $r2lqwin.pdf
+│   │       ├── $rxd9ode.pdf
+│   │       ├── building_belief_into_code.pdf
+│   │       ├── contextual swiichting.pdf
+│   │       ├── Gossip Language Governance Layer.pdf
+│   │       ├── governing meaning_ the rift architecture of certainty - copy.pdf
+│   │       ├── memory_self_role_mask.pdf
+│   │       ├── OBINexus RIFT-N Sinphasé Integration Plan.pdf
+│   │       ├── README.md
+│   │       ├── readme.pdf
+│   │       ├── readme2.pdf
+│   │       ├── RIFT Stage 0 Tokenization System_ Complete Implementation Plan.pdf
+│   │       ├── rift token architecture_ memory-type associations.pdf
+│   │       ├── RIFT Toolchain Governance Compliance Framework.pdf
+│   │       ├── rifter_ecosystem_whitepaper (8) - copy.pdf
+│   │       ├── rifter_ecosystem_whitepaper (8).pdf
+│   │       ├── rifter_ecosystem_whitepaper.pdf
+│   │       ├── riftlang self-governing driver & binding specification.md
+│   │       ├── riftlang self-governing driver & binding specification.pdf
+│   │       ├── riftlang_implementation_specification.pdf
+│   │       ├── riftlang_lexer_specification.md
+│   │       ├── specification_classic_and
+│   │       └── technical documentation - memory goveranace in the rift ecosystem.pdf
+│   ├── spec
+│   │   ├── Aegis.pdf
+│   │   ├── Cryptographic_Standard_V1_0.pdf
+│   │   ├── Dimensional_Game_Theory.pdf
+│   │   ├── Enhanced Chapter 6_ Git-RAF Integration.pdf
+│   │   ├── Formal Proof of Zzero-Knowledge Protocol.pdf
+│   │   ├── Formal_Mathemitical_Reasoning_System (1).pdf
+│   │   ├── Isomorphic_Reduction__Not_a_Bug__But_a_Feature.pdf
+│   │   ├── Mathematical_Framework_for_Zero_Overhead_Data_Marshalling.pdf
+│   │   ├── phantom_decoder.py
+│   │   ├── README.md
+│   │   ├── sinphase_documentation.pdf
+│   │   ├── State Machine Optimization in Tennis Score Tracking.md
+│   │   ├── Telemetry Debugging via GUID and Timestamp Integration.pdf
+│   │   ├── tennis_tracker.py
+│   │   ├── Thread Safety Implementation in Gosilang - A Formal Analysis (1).pdf
+│   │   ├── Variadic Strategy in Multi-Dimensional Context.pdf
+│   │   └── ZERO_KNOWLEDGE_PROOF.md
+│   ├── specification
+│   │   ├── README.md
+│   │   └── RIFT_Integration_Standard_v4.0.0.md
+│   ├── specifications
+│   │   ├── compliance-scripts
+│   │   │   └── README.md
+│   │   ├── latex-specs
+│   │   │   └── README.md
+│   │   ├── markdown-repos
+│   │   │   ├── Aegis.pdf
+│   │   │   ├── Cryptographic_Standard_V1_0.pdf
+│   │   │   ├── Dimensional_Game_Theory.pdf
+│   │   │   ├── Isomorphic_Reduction__Not_a_Bug__But_a_Feature.pdf
+│   │   │   ├── Mathematical_Framework_for_Zero_Overhead_Data_Marshalling.pdf
+│   │   │   ├── README.md
+│   │   │   ├── sinphase_documentation.pdf
+│   │   │   └── Variadic Strategy in Multi-Dimensional Context.pdf
+│   │   └── README.md
+│   ├── stages
+│   │   ├── README.md
+│   │   ├── stage-0-tokenizer
+│   │   │   ├── $rcu90ow.md
+│   │   │   ├── $rcu90ow_1.md
+│   │   │   ├── $rcu90ow_2.md
+│   │   │   ├── $rcu90ow_3.md
+│   │   │   ├── $rcu90ow_4.md
+│   │   │   ├── $rng7ua6.md
+│   │   │   ├── $rng7ua6_1.md
+│   │   │   ├── $rng7ua6_2.md
+│   │   │   ├── $rng7ua6_3.md
+│   │   │   ├── $rng7ua6_4.md
+│   │   │   ├── contextual swiichting.md
+│   │   │   ├── contextual swiichting_1.md
+│   │   │   ├── contextual swiichting_2.md
+│   │   │   ├── contextual swiichting_3.md
+│   │   │   ├── contextual swiichting_4.md
+│   │   │   ├── examples
+│   │   │   │   └── README.md
+│   │   │   ├── hotwiring_architecture.md
+│   │   │   ├── implementation
+│   │   │   │   └── README.md
+│   │   │   ├── memory_self_role_mask.md
+│   │   │   ├── memory_self_role_mask_1.md
+│   │   │   ├── memory_self_role_mask_2.md
+│   │   │   ├── memory_self_role_mask_3.md
+│   │   │   ├── memory_self_role_mask_4.md
+│   │   │   ├── Quantum_Superposition.md
+│   │   │   ├── Quatum_Superposition.md
+│   │   │   ├── Quatum_Superposition_1.md
+│   │   │   ├── Quatum_Superposition_2.md
+│   │   │   ├── Quatum_Superposition_3.md
+│   │   │   ├── readme.md
+│   │   │   ├── readme_1.md
+│   │   │   ├── readme_2.md
+│   │   │   ├── readme_3.md
+│   │   │   ├── readme_4.md
+│   │   │   ├── RIFT Stage 0 Tokenization System_ Complete Implementation Plan.pdf
+│   │   │   ├── RIFT Stage 0 Tokenization System_ Complete Implementation Plan_1.pdf
+│   │   │   ├── rift token architecture_ memory-type associations.pdf
+│   │   │   ├── rift token architecture_ memory-type associations_1.pdf
+│   │   │   ├── rift token architecture_ memory-type associations_2.pdf
+│   │   │   ├── rift token architecture_ memory-type associations_3.pdf
+│   │   │   ├── rift token architecture_ memory-type associations_4.pdf
+│   │   │   ├── RIFT-0 Tokenizer Header Files_ Clean Structure for AEGIS Framework Compatibility.pdf
+│   │   │   ├── rifter_principles.md
+│   │   │   ├── rifter_principles_1.md
+│   │   │   ├── rift-governance-model.md
+│   │   │   ├── riftlang self-governing driver & binding specification.md
+│   │   │   ├── riftlang self-governing driver & binding specification_1.md
+│   │   │   ├── riftlang self-governing driver & binding specification_2.md
+│   │   │   ├── riftlang self-governing driver & binding specification_3.md
+│   │   │   ├── riftlang self-governing driver & binding specification_4.md
+│   │   │   ├── riftlang token specification_ classical and quantum governance.pdf
+│   │   │   ├── riftlang_lexer_specification.md
+│   │   │   ├── riftlang_lexer_specification_1.md
+│   │   │   ├── riftlang_lexer_specification_2.md
+│   │   │   ├── riftlang_lexer_specification_3.md
+│   │   │   ├── riftlang_lexer_specification_4.md
+│   │   │   ├── rifttoken_model.md
+│   │   │   ├── rifttoken_model_1.md
+│   │   │   ├── rifttoken_model_2.md
+│   │   │   ├── rifttoken_model_3.md
+│   │   │   ├── rifttoken_model_4.md
+│   │   │   ├── rift-token-spec.md
+│   │   │   ├── rift-token-spec_1.md
+│   │   │   ├── rift-token-spec_2.md
+│   │   │   ├── rift-token-spec_3.md
+│   │   │   ├── rift-token-spec_4.md
+│   │   │   ├── specifications
+│   │   │   │   └── README.md
+│   │   │   ├── SUMMARY.md
+│   │   │   ├── TODO.md
+│   │   │   ├── TODO_1.md
+│   │   │   ├── TODO_2.md
+│   │   │   └── Unicode_Only_Structural_Charset_Normalizer.md
+│   │   ├── stage-1-parser
+│   │   │   ├── examples
+│   │   │   │   └── README.md
+│   │   │   ├── formal languages and grammar types.pdf
+│   │   │   ├── formal-languages-grammar-types.md
+│   │   │   ├── implementation
+│   │   │   │   └── README.md
+│   │   │   ├── import-enforcement-guide.md
+│   │   │   ├── README.md
+│   │   │   ├── README_1.md
+│   │   │   ├── readme2.md
+│   │   │   ├── readme2_1.md
+│   │   │   ├── readme2_2.md
+│   │   │   ├── readme2_3.md
+│   │   │   ├── readme2_4.md
+│   │   │   └── specifications
+│   │   │       └── README.md
+│   │   ├── stage-2-ast
+│   │   │   ├── $r2lqwin.pdf
+│   │   │   ├── $r2lqwin_1.pdf
+│   │   │   ├── $r2lqwin_2.pdf
+│   │   │   ├── $r2lqwin_3.pdf
+│   │   │   ├── Automaton State Minimization and AST Optimization.pdf
+│   │   │   ├── Automaton State Minimization and AST Optimization_1.pdf
+│   │   │   ├── examples
+│   │   │   │   └── README.md
+│   │   │   ├── Extended Automaton-AST Minimization and Validation.pdf
+│   │   │   ├── implementation
+│   │   │   │   └── README.md
+│   │   │   ├── implementation_strategy.md
+│   │   │   ├── README.md
+│   │   │   ├── README_1.md
+│   │   │   ├── README_2.md
+│   │   │   ├── riftlang_with_quantum_governnce.md
+│   │   │   ├── riftlang_with_quantum_governnce_1.md
+│   │   │   ├── riftlang_with_quantum_governnce_2.md
+│   │   │   ├── riftlang_with_quantum_governnce_3.md
+│   │   │   ├── riftlang_with_quantum_governnce_4.md
+│   │   │   └── specifications
+│   │   │       └── README.md
+│   │   ├── stage-3-validator
+│   │   │   ├── building_belief_into_code.md
+│   │   │   ├── building_belief_into_code_1.md
+│   │   │   ├── building_belief_into_code_2.md
+│   │   │   ├── building_belief_into_code_3.md
+│   │   │   ├── building_belief_into_code_4.md
+│   │   │   ├── compass_artifact_wf-c3fa578c-245d-4e4a-8a07-aed1cfd656d6_text_markdown.md
+│   │   │   ├── directory_for_riftlang_ugly_as_.md
+│   │   │   ├── directory_for_riftlang_ugly_as__1.md
+│   │   │   ├── directory_for_riftlang_ugly_as__2.md
+│   │   │   ├── directory_for_riftlang_ugly_as__3.md
+│   │   │   ├── directory_for_riftlang_ugly_as__4.md
+│   │   │   ├── examples
+│   │   │   │   └── README.md
+│   │   │   ├── implementation
+│   │   │   │   └── README.md
+│   │   │   ├── README.md
+│   │   │   ├── README_1.md
+│   │   │   ├── README_2.md
+│   │   │   ├── README_3.md
+│   │   │   ├── rift_goverance_file.md
+│   │   │   ├── rift_goverance_file_1.md
+│   │   │   ├── rift_goverance_file_2.md
+│   │   │   ├── rift_goverance_file_3.md
+│   │   │   ├── rift_goverance_file_4.md
+│   │   │   ├── rift-7-hardware-deployment.md
+│   │   │   ├── rift-bridge-governance-relay.md
+│   │   │   ├── riftmemory_alignment.md
+│   │   │   ├── specifications
+│   │   │   │   └── README.md
+│   │   │   ├── the rifters way - language intergirty for human-centric safety-critcial system.md
+│   │   │   ├── the rifters way - language intergirty for human-centric safety-critcial system_1.md
+│   │   │   ├── the rifters way - language intergirty for human-centric safety-critcial system_2.md
+│   │   │   ├── ZERO_KNOWLEDGE_PROOF.md
+│   │   │   └── ZERO_KNOWLEDGE_PROOF_1.md
+│   │   ├── stage-4-bytecode
+│   │   │   ├── $r8io2l9.md
+│   │   │   ├── $r8io2l9_1.md
+│   │   │   ├── $r8io2l9_2.md
+│   │   │   ├── $r8io2l9_3.md
+│   │   │   ├── $r8io2l9_4.md
+│   │   │   ├── $r8rf64o.md
+│   │   │   ├── $r8rf64o_1.md
+│   │   │   ├── $r8rf64o_2.md
+│   │   │   ├── $r8rf64o_3.md
+│   │   │   ├── $r8rf64o_4.md
+│   │   │   ├── Dimensional_Game_Theory.md
+│   │   │   ├── enhanced_chapter_6.md
+│   │   │   ├── examples
+│   │   │   │   └── README.md
+│   │   │   ├── FORMAL AUTOMATON MODEL FOR REGEX IN PROGRAMMING LANGUAGE DESIGN.pdf
+│   │   │   ├── FORMAL AUTOMATON MODEL FOR REGEX IN PROGRAMMING LANGUAGE DESIGN_1.pdf
+│   │   │   ├── FORMAL AUTOMATON MODEL FOR REGEX IN PROGRAMMING LANGUAGE DESIGN_2.pdf
+│   │   │   ├── Formal_Analysis_of_Game_Theory_for_Algorithm.md
+│   │   │   ├── hotwiring_overview.md
+│   │   │   ├── implementation
+│   │   │   │   └── README.md
+│   │   │   ├── incremental_edit_loop.md
+│   │   │   ├── memory as governance contract.md
+│   │   │   ├── README.md
+│   │   │   ├── README_1.md
+│   │   │   ├── README_2.md
+│   │   │   ├── README_3.md
+│   │   │   ├── repo_structure.md
+│   │   │   ├── RIFT_Integration_Standard_v4.0.0.md
+│   │   │   ├── rift-documentation-build.md
+│   │   │   ├── rift-documentation-build_1.md
+│   │   │   ├── rift-documentation-build_2.md
+│   │   │   ├── rift-documentation-build_3.md
+│   │   │   ├── rift-documentation-build_4.md
+│   │   │   ├── specifications
+│   │   │   │   └── README.md
+│   │   │   ├── State Machine Optimization in Tennis Score Tracking.md
+│   │   │   ├── the rifters way - language intergirty for human-centric safety-critcial system.pdf
+│   │   │   ├── the rifters way - language intergirty for human-centric safety-critcial system_1.pdf
+│   │   │   ├── the rifters way - language intergirty for human-centric safety-critcial system_2.pdf
+│   │   │   ├── the rifters way - language intergirty for human-centric safety-critcial system_3.pdf
+│   │   │   ├── the rifters way - language intergirty for human-centric safety-critcial system_4.pdf
+│   │   │   └── Varidaic_Strategy.md
+│   │   ├── stage-5-verifier
+│   │   │   ├── examples
+│   │   │   │   └── README.md
+│   │   │   ├── Formal Proof of Zzero-Knowledge Protocol.pdf
+│   │   │   ├── Formal Proof of Zzero-Knowledge Protocol_1.pdf
+│   │   │   ├── Formal Proof of Zzero-Knowledge Protocol_2.pdf
+│   │   │   ├── implementation
+│   │   │   │   └── README.md
+│   │   │   ├── README.md
+│   │   │   └── specifications
+│   │   │       └── README.md
+│   │   └── stage-6-emitter
+│   │       ├── examples
+│   │       │   └── README.md
+│   │       ├── Formal_Mathemitical_Reasoning_System (1).pdf
+│   │       ├── Formal_Mathemitical_Reasoning_System (1)_1.pdf
+│   │       ├── Formal_Mathemitical_Reasoning_System.pdf
+│   │       ├── implementation
+│   │       │   └── README.md
+│   │       ├── README.md
+│   │       ├── README_1.md
+│   │       └── specifications
+│   │           └── README.md
+│   ├── SUMMARY.md
+│   └── toolchain
+│       ├── gosilang
+│       │   ├── gossip-language-governance.md
+│       │   ├── README.md
+│       │   ├── Thread Safety Implementation in Gosilang - A Formal Analysis (1).pdf
+│       │   ├── Thread Safety Implementation in Gosilang - A Formal Analysis (1)_1.pdf
+│       │   ├── Thread Safety Implementation in Gosilang - A Formal Analysis (1)_2.pdf
+│       │   ├── Thread Safety Implementation in Gosilang - A Formal Analysis (1)_3.pdf
+│       │   └── Thread Safety Implementation in Gosilang - A Formal Analysis (1)_4.pdf
+│       ├── README.md
+│       ├── rift-exe
+│       │   └── README.md
+│       ├── riftlang-exe
+│       │   ├── $i2lqwin.pdf
+│       │   ├── $i2lqwin_1.pdf
+│       │   ├── $i2lqwin_2.pdf
+│       │   ├── $i2lqwin_3.pdf
+│       │   ├── $i8io2l9.md
+│       │   ├── $i8io2l9_1.md
+│       │   ├── $i8io2l9_2.md
+│       │   ├── $i8io2l9_3.md
+│       │   ├── $i8io2l9_4.md
+│       │   ├── $i8rf64o.md
+│       │   ├── $i8rf64o_1.md
+│       │   ├── $i8rf64o_2.md
+│       │   ├── $i8rf64o_3.md
+│       │   ├── $i8rf64o_4.md
+│       │   ├── $icu90ow.md
+│       │   ├── $icu90ow_1.md
+│       │   ├── $icu90ow_2.md
+│       │   ├── $icu90ow_3.md
+│       │   ├── $icu90ow_4.md
+│       │   ├── $ing7ua6.md
+│       │   ├── $ing7ua6_1.md
+│       │   ├── $ing7ua6_2.md
+│       │   ├── $ing7ua6_3.md
+│       │   ├── $ing7ua6_4.md
+│       │   ├── $ixd9ode.pdf
+│       │   ├── $ixd9ode_1.pdf
+│       │   ├── $ixd9ode_2.pdf
+│       │   ├── $ixd9ode_3.pdf
+│       │   ├── README.md
+│       │   ├── riftlang self-governing driver & binding specification.pdf
+│       │   ├── riftlang self-governing driver & binding specification_1.pdf
+│       │   ├── riftlang self-governing driver & binding specification_2.pdf
+│       │   ├── riftlang self-governing driver & binding specification_3.pdf
+│       │   ├── riftlang self-governing driver & binding specification_4.pdf
+│       │   ├── riftlang_implementation_specification.pdf
+│       │   ├── riftlang_implementation_specification_1.pdf
+│       │   ├── riftlang_implementation_specification_2.pdf
+│       │   ├── riftlang_implementation_specification_3.pdf
+│       │   └── riftlang_implementation_specification_4.pdf
+│       └── shared-objects
+│           └── README.md
+├── README.md
+├── RIFTERS_DOCUMENTATION27NOV2025_155700PM_MMUKO_CONSTUTIONAL_POLARITY_BOUNDINDEXIJKKLM.txt
+└── scripts
+    └── validation.sh
+
+98 directories, 615 files
