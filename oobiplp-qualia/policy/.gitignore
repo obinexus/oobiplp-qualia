@@ -1,0 +1,22 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.exe
+
+# OBINexus specific
+*.nexus
+*.dramrc.generated
+.diram_cache/
+nlink_output/
+polybuild_artifacts/
+
+# Development environment
+.vscode/
+.clangd/
+compile_commands.json
+
+# Documentation builds
+docs/_build/
+*.pdf
