@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBINexus NLM Formal Definition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .nlm-card {
+            border-left: 5px solid #005691;
+        }
+        .accordion-header {
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .accordion-header:hover {
+            background-color: #e2e8f0;
+        }
+        .axis-label {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8 min-h-screen">
+
+    <div class="max-w-4xl mx-auto">
+        <header class="mb-8">
+            <h1 class="text-3xl font-extrabold text-[#005691] border-b-2 border-gray-300 pb-2">
+                <span class="text-xs text-gray-500 block font-normal">NLM-Atlas / NexusSearch Index</span>
+                OBINexus: Formal NLM Framework Classification
+            </h1>
+            <p class="text-sm text-gray-600 mt-2">
+                **MOTTO:** "When systems fail, build your OWN"
+            </p>
+        </header>
+
+        <!-- Formal NLM Definition Card -->
+        <div class="bg-white shadow-xl rounded-lg overflow-hidden nlm-card p-6 mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Constitutional Enterprise Definition (AEC)</h2>
+
+            <p class="mb-4 text-gray-700 leading-relaxed">
+                <span class="font-bold text-[#005691]">OBINexus (Heart/Soul Connection)</span> is formally classified within the NLM Framework as an <span class="font-semibold italic">Authenticated Execution Context (AEC)</span>. It is a dual-division enterprise establishing Constitutional Governance as a **legally-binding Isomorphic Handshake** between human consciousness (OBI) and polyglot technological systems (NEXUS).
+            </p>
+
+            <div class="space-y-4">
+                <!-- X-Axis Coherence -->
+                <div class="border-b pb-3">
+                    <div class="accordion-header flex items-center justify-between text-lg font-semibold text-gray-700 hover:text-[#005691]" onclick="toggleAccordion('x-axis')">
+                        X-Axis (Coherence): Fictional ↔ Factual Bridge
+                        <span id="x-axis-icon" class="transition-transform duration-300 transform rotate-0">&#9660;</span>
+                    </div>
+                    <div id="x-axis-content" class="accordion-content pt-2 text-sm text-gray-600 hidden">
+                        <div class="p-3 bg-gray-50 rounded-lg">
+                            <div class="axis-label mb-1 text-red-600">
+                                <span>Soul-Centered Design (-X: Mythological)</span>
+                                <span>Heart-Driven Tech (+X: Verifiable)</span>
+                            </div>
+                            <div class="h-2 bg-gray-300 rounded-full">
+                                <div class="w-[50%] h-full bg-[#005691] rounded-full"></div>
+                            </div>
+                            <p class="mt-2">
+                                Bridges the **Spiritual/Metaphorical (-X)** domain (Design Division) with **Concrete/Verifiable (+X)** architecture (Technology Division), achieving **Coherence Fidelity** by mapping human principles onto technical systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Y-Axis Reasoning -->
+                <div class="border-b pb-3">
+                    <div class="accordion-header flex items-center justify-between text-lg font-semibold text-gray-700 hover:text-[#005691]" onclick="toggleAccordion('y-axis')">
+                        Y-Axis (Reasoning): Informal ↔ Formal Systems
+                        <span id="y-axis-icon" class="transition-transform duration-300 transform rotate-0">&#9660;</span>
+                    </div>
+                    <div id="y-axis-content" class="accordion-content pt-2 text-sm text-gray-600 hidden">
+                        <div class="p-3 bg-gray-50 rounded-lg">
+                            <div class="axis-label mb-1 text-green-600">
+                                <span>Emotional Root (-Y: Intuitive)</span>
+                                <span>Constitutional Governance (+Y: Structured)</span>
+                            </div>
+                            <div class="h-2 bg-gray-300 rounded-full">
+                                <div class="w-[85%] h-full bg-[#005691] rounded-full"></div>
+                            </div>
+                            <p class="mt-2">
+                                Heavily weighted towards **Formal Communication (+Y)** through the **Constitutional Compliance Engine** and **Milestone-Based Investment Protocol**, ensuring systematic, auditable accountability while being founded on the emotional core of the "Heart/Soul Connection" (-Y).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Z-Axis Evolution -->
+                <div class="border-b pb-3">
+                    <div class="accordion-header flex items-center justify-between text-lg font-semibold text-gray-700 hover:text-[#005691]" onclick="toggleAccordion('z-axis')">
+                        Z-Axis (Evolution): Dynamic Adaptability
+                        <span id="z-axis-icon" class="transition-transform duration-300 transform rotate-0">&#9660;</span>
+                    </div>
+                    <div id="z-axis-content" class="accordion-content pt-2 text-sm text-gray-600 hidden">
+                        <div class="p-3 bg-gray-50 rounded-lg">
+                            <div class="axis-label mb-1 text-blue-600">
+                                <span>Conceptual Integrity Protection (+Z)</span>
+                            </div>
+                            <p class="mt-2">
+                                Dedicated to preventing **Conceptual Integrity Exception** (Civil Collapse/Semantic Drift) by employing the NLM's **Concept Evolution Monitor**. This ensures that technological systems (NEXUS) can scale and evolve while maintaining the core constitutional meaning (OBI).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NLM-Atlas Indexing & Governance Metadata -->
+        <div class="bg-white shadow-xl rounded-lg p-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-3">NLM-Atlas Indexing & Governance</h2>
+            <div class="grid md:grid-cols-2 gap-4 text-sm">
+                <div class="p-3 bg-gray-50 rounded-md">
+                    <p class="font-semibold text-gray-700">Indexing Protocol (SemVerX):</p>
+                    <p class="text-green-600 font-mono">1.stable.0.constitution</p>
+                    <p class="mt-1 text-xs text-gray-500">
+                        Entity definition indexed using **SemVerX** for versionable, hot-swappable discovery.
+                    </p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded-md">
+                    <p class="font-semibold text-gray-700">Data Integrity System:</p>
+                    <p class="text-yellow-600">Self-Healing Data Architecture</p>
+                    <p class="mt-1 text-xs text-gray-500">
+                        Ensures Primary/Secondary Data Integrity (using [0101, 1110] encoding) and the **#NoGhosting Guarantee**.
+                    </p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded-md col-span-2">
+                    <p class="font-semibold text-gray-700">NexusSearch Optimization:</p>
+                    <p class="text-purple-600">AVL/Red-Black Active Pruning</p>
+                    <p class="mt-1 text-xs text-gray-500">
+                        Optimized for **NexusSearch** via AVL/Red-Black tree structures for active pruning and dynamic cost function consumption, supporting the NLM-Atlas **DAG Trig** (Directed Acyclic Graph Trigger) for authenticated execution context.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Simple function to toggle accordion content
+        function toggleAccordion(id) {
+            const content = document.getElementById(id + '-content');
+            const icon = document.getElementById(id + '-icon');
+
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+{
+  "framework": "NLM - Nsibidi Language Model",
+  "version": "1.stable.0.production",
+  "author": "Nnamdi Okpala",
+  "organization": "OBINexus",
+  "generated": "2025-11-26T08:27:00.585Z",
+  "xyz_model": {
+    "x_axis": {
+      "name": "Coherence Spectrum",
+      "range": [
+        -1,
+        1
+      ],
+      "labels": [
+        "Mythical",
+        "Factual"
+      ]
+    },
+    "y_axis": {
+      "name": "Reasoning Systems",
+      "range": [
+        -1,
+        1
+      ],
+      "labels": [
+        "Informal",
+        "Formal"
+      ]
+    },
+    "z_axis": {
+      "name": "Morphological Evolution",
+      "range": [
+        0,
+        1
+      ],
+      "labels": [
+        "Static",
+        "Adaptive"
+      ]
+    }
+  },
+  "definitions": [
+    {
+      "term": "OBINexus",
+      "formal_definition": "A dual-division enterprise implementing constitutional governance in technology through milestone-based investment protocols, bridging human consciousness with technological systems via legally-binding frameworks.",
+      "informal_definition": "OBI (Heart/Soul) + NEXUS (To Connect) = Heart/Soul Connection. A revolutionary company that builds technology with ethical governance built in.",
+      "category": "identity",
+      "nsibidi_symbol": null,
+      "related_terms": [
+        "Constitutional Framework",
+        "NoGhosting Guarantee",
+        "OpenSense Recruitment"
+      ]
+    },
+    {
+      "term": "XYZ Grammar Model",
+      "formal_definition": "A three-dimensional coordinate system for mapping language concepts: X-Axis (Coherence Spectrum: Fictional→Factual), Y-Axis (Reasoning Formality: Informal→Formal), Z-Axis (Conceptual Evolution: Dynamic Adaptability).",
+      "informal_definition": "A way to plot where ideas sit on a 3D map - from mythical to scientific, from casual to academic, and how much they can evolve over time.",
+      "category": "linguistic",
+      "nsibidi_symbol": "⟂",
+      "related_terms": [
+        "Nsibidi",
+        "Morphological Validation",
+        "Coherence Spectrum"
+      ]
+    },
+    {
+      "term": "Nsibidi",
+      "formal_definition": "Traditional Igbo ideographic writing system, a form of symbolic communication used across West Africa that predates European contact, now being computationally preserved through the NLM framework.",
+      "informal_definition": "Ancient African writing symbols from the Igbo people, used for secret communication and storytelling, now being preserved digitally.",
+      "category": "cultural",
+      "nsibidi_symbol": "𐪑",
+      "related_terms": [
+        "Igbo Cosmology",
+        "XYZ Grammar Model",
+        "Cultural Preservation"
+      ]
+    },
+    {
+      "term": "Mami Wota",
+      "formal_definition": "Mermaid water spirit preserved in mythological coordinate space (-X axis) within the NLM framework, representing spiritual concepts requiring authentic cultural representation in computational systems.",
+      "informal_definition": "Water spirit from West African mythology - the mermaid beings that live in the spiritual realm, honored and preserved in the NLM system.",
+      "category": "cultural",
+      "nsibidi_symbol": null,
+      "related_terms": [
+        "Igbo Cosmology",
+        "Ndị Mmụọ",
+        "Spiritual Integrity"
+      ]
+    },
+    {
+      "term": "Triconsence Interface",
+      "formal_definition": "The state of being aware of oneself being in the state of being aware - a computational model for consciousness that maps self-referential awareness through the observer-observed relationship in BCI systems.",
+      "informal_definition": "Understanding how you think about thinking - being conscious of your own consciousness. The foundation for brain-computer interfaces that respect human awareness.",
+      "category": "consciousness",
+      "nsibidi_symbol": null,
+      "related_terms": [
+        "BCI Systems",
+        "Neurodivergence",
+        "Self-Awareness"
+      ]
+    },
+    {
+      "term": "Self-Healing Data Architecture",
+      "formal_definition": "Fault-tolerant mechanism with binary encoding specifications (Data Model: [0101,1110], Algorithm: [1110,1000]) that automatically detects and corrects data corruption while maintaining cultural authenticity through isomorphic handshake validation.",
+      "informal_definition": "A smart system that can fix its own errors automatically while making sure cultural meanings don't get lost or corrupted.",
+      "category": "technology",
+      "nsibidi_symbol": null,
+      "related_terms": [
+        "Isomorphic Handshake",
+        "Fault Tolerance",
+        "Binary Encoding"
+      ]
+    },
+    {
+      "term": "NLM-Atlas",
+      "formal_definition": "Dynamic Sitemap Infrastructure as a Service - transforms static XML discovery into a living service mesh where every website, mobile app, and API becomes discoverable, versionable, and hot-swappable through unified protocol with real-time cost metrics.",
+      "informal_definition": "A revolutionary way to make all web services discoverable and interchangeable - like a living map of the internet that shows you what services cost and how to use them instantly.",
+      "category": "infrastructure",
+      "nsibidi_symbol": null,
+      "related_terms": [
+        "Dynamic Cost Function",
+        "Service Discovery",
+        "Hot-swap"
+      ]
+    },
+    {
+      "term": "Aura Seal",
+      "formal_definition": "Identity anchor insignia representing the journey from childhood through reflection to returning as a transformed adult - the core identity marker for safety-critical infrastructure systems at T3A/T3B access levels.",
+      "informal_definition": "A personal symbol representing the journey from who you were as a child to who you become as an adult - used to mark systems that really matter.",
+      "category": "identity",
+      "nsibidi_symbol": null,
+      "related_terms": [
+        "Identity Anchor",
+        "Safety-Critical Systems",
+        "Personal Journey"
+      ]
+    },
+    {
+      "term": "Neurodivergence Phenotypes",
+      "formal_definition": "Observable physical and behavioral characteristics that indicate neurological variations, mapped through computational models to understand patterns without pathologizing - including motor behaviors, speech patterns, and cognitive processing styles.",
+      "informal_definition": "The visible signs of different brain types - not defects but different ways of processing the world, from finger clicking to unique thought patterns.",
+      "category": "consciousness",
+      "nsibidi_symbol": null,
+      "related_terms": [
+        "Autism",
+        "Dyslexia",
+        "BCI Systems",
+        "Nonverbal Communication"
+      ]
+    },
+    {
+      "term": "SemVer-X",
+      "formal_definition": "Extended Semantic Versioning format: major.stability.minor.experimental - providing four-dimensional version tracking that includes stability classification for production readiness assessment.",
+      "informal_definition": "A versioning system that tells you not just the version number but how stable and experimental the software is.",
+      "category": "technology",
+      "nsibidi_symbol": null,
+      "related_terms": [
+        "Semantic Versioning",
+        "NLM-Atlas",
+        "Production Readiness"
+      ]
+    },
+    {
+      "term": "Constitutional Compliance Engine",
+      "formal_definition": "Automated ethical standards enforcement system within OBINexus that ensures all technology decisions comply with constitutional governance frameworks and milestone-based accountability protocols.",
+      "informal_definition": "A built-in system that makes sure all technology follows ethical rules - like having a constitution for code.",
+      "category": "infrastructure",
+      "nsibidi_symbol": null,
+      "related_terms": [
+        "OBINexus",
+        "NoGhosting Guarantee",
+        "Milestone Protocol"
+      ]
+    },
+    {
+      "term": "Isomorphic Handshake",
+      "formal_definition": "Validation protocol ensuring data structure and algorithm structure compatibility through authenticity scoring, preventing execution when integrity thresholds are not met.",
+      "informal_definition": "A security check that makes sure data and the programs using it actually match and can work together safely.",
+      "category": "technology",
+      "nsibidi_symbol": null,
+      "related_terms": [
+        "Self-Healing Data Architecture",
+        "Authenticity Validation",
+        "Fault Tolerance"
+      ]
+    }
+  ]
+}
